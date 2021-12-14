@@ -104,8 +104,8 @@ export const projects: IProject[] = [
     name: "KCSグループウェア",
     description: "専門学校で卒業研究を使うときに使えるグループウェア",
     image_path: "/images/mypage.png",
-    deployed_url: "https://github.com/haru507/task-shared-app-laravel",
-    github_url: "hhttps://github.com/haru507/task-shared-app-react",
+    deployed_url: "https://kcska-my.sharepoint.com/:p:/g/personal/20192132_kcska_onmicrosoft_com/EcwCz9ncvRpItRcBF1z1AZsBWQwLLjNcbjIXoAVt8vmQ6g?e=eufL3G",
+    github_url: "https://github.com/haru507/kcs-groupware",
     category: ["react", "laravel"],
     key_techs: ["React", "Laravel", "Material UI", "MySQL", "Docker"],
   },
@@ -168,13 +168,13 @@ export const projects: IProject[] = [
 
   {
     id: 7,
-    name: "WordPressの修正作業",
+    name: "WordPressの開発作業",
     image_path: "/images/kinglish.png",
     deployed_url: "https://pange-hoiku.com/lp2008/",
     github_url: "",
     category: ["wordpress"],
     description:
-      "クラウドワークスにてWordPressで構築されたWebサイトの機能追加・修正作業に携わりました",
+      "クラウドワークスにてWordPressでWebサイトの開発作業と機能追加・修正作業に携わりました",
     key_techs: ["WordPress", "PHP", "Javascript"],
   },
   {
@@ -185,7 +185,7 @@ export const projects: IProject[] = [
     github_url: "",
     category: ["laravel"],
     description:
-      'クラウドワークスにてLaravelで構築されたシステムに新たに機能追加と修正作業に携わりました',
+      'クラウドワークスにてLaravelでシステムの構築と新たに機能追加と修正作業に携わりました',
     key_techs: [
       "Laravel",
       "Bootstrap"

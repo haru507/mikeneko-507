@@ -60,7 +60,6 @@ function Sidebar() {
           <span>Tokyo, Japan</span>
         </div>
         <p className="my-2">i.haru507@gmail.com</p>
-        <p className="my-2">08063182370</p>
       </div>
 
       {/* Email Button */}
