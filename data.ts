@@ -10,25 +10,25 @@ export const services: IServes[] = [
     Icon: RiComputerLine,
     title: "フロントエンド",
     about:
-      "デザイン的なスキルはないが<b>HTML</b>,<b>CSS</b>は書けます。<b>React.js</b>などのSPAの方が得意。",
+      "<b>React, Vue.js</b>などのSPAでの開発が得意。<br/>Reduxなどの状態管理を用いた中規模~大規模の開発経験もあります。<br/>iOSの開発でSwiftを触る機会もありました。",
   },
   {
     Icon: FaServer,
     title: "バックエンド",
     about:
-      "特に<b>Laravel</b>が得意だが、人気のあるフレームワークなら調べれば使用することができる。",
+      "<b>PHP, Java, Python</b>が得意。特にLaravelのフレームワークを用いた開発が得意である。<br/>Go, Rustの調査を考えています。",
   },
   {
     Icon: MdDeveloperMode,
     title: "インフラストラクチャ",
     about:
-      "まだまだ実務で触る機会は少ないが <b>AWS</b> と <b>GCP</b> を学習しております。",
+      "実務でAWS CLIを使って環境構築をしました。EC2, RDS, CloudFrontなど様々なサービスについて知ることができました。",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "設計",
     about:
-      "現在学習中です。コードをバリバリ書いて上流工程にも携われるようにしたいです。",
+      "現在学習中です。アーキテクチャやTDD, DDDなど設計に関しても興味があります。",
   },
 ];
 
@@ -41,7 +41,7 @@ export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "PHP",
-    level: "60%",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
@@ -50,8 +50,8 @@ export const languages: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60%",
+    name: "Javascript",
+    level: "75%",
   },
   {
     Icon: BsCircleFill,
@@ -61,15 +61,20 @@ export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Swift",
-    level: "35%",
+    level: "50%",
   },
+  {
+    Icon: BsCircleFill,
+    name: "Kotlin",
+    level: "50%",
+  }
 ];
 
 export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "React",
-    level: "70%",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
@@ -79,7 +84,12 @@ export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Laravel",
-    level: "70%",
+    level: "80%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Vue.js",
+    level: "60%",
   },
   {
     Icon: BsCircleFill,
@@ -213,4 +223,15 @@ export const projects: IProject[] = [
       "研修の日報はエクセルに書くため、プログラムを実行すると決まった日にちのセルに書き込みを行ってくれるプログラムを作りました。メールまで作ってくれます",
     key_techs: ["Python", "openpyxl", "LibreOffice",],
   },
+  {
+    id: 11,
+    name: "ito",
+    image_path: "/images/ito.png",
+    deployed_url: "http://54.65.27.209/start",
+    github_url: "https://github.com/haru507/ito",
+    category: ["react"],
+    description:
+      "React, GoとWebSocketを使って ito のゲームを作りました。",
+      key_techs: ["react", "go", "websocket"]
+  }
 ];

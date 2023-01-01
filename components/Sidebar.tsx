@@ -46,7 +46,7 @@ function Sidebar() {
         <a href="https://github.com/haru507">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://note.com/app_haru57/">
+        <a href="https://zenn.dev/haru507">
           <FaStickyNote className="w-8 h-8 cursor-pointer" />
         </a>
       </div>

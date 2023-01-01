@@ -10,14 +10,14 @@ const index = ({endpoint}) => {
       <h5 className="my-3 font-medium">
         私は、ITの専門学校に２年間通ってITに関する知識を養いました。<br />
         卒業研究では、校内システム「グループウェア」を作り優秀賞をいただきました。<br />
-        現在、自社開発系のベンチャー企業に勤めながら副業も行っております。<br />
+        現在、受託開発系のベンチャー企業に勤めながら副業も行っております。<br />
         お仕事なども募集しておりますのでEmailやTwitterなどからメッセージをいただければ幸いです。
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h6 className="my-3 text-xl font-bold tracking-wide">できます！</h6>
+        <h6 className="my-3 text-xl font-bold tracking-wide">job description</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {services.map((service) => (
             <div
@@ -29,9 +29,6 @@ const index = ({endpoint}) => {
           ))}
         </div>
       </div>
-      <p className="my-1" style={{color: "gray", fontSize: "0.5rem"}}>
-        ※できることすくなっとか思わないでくださいね笑 これからできることを増やしていきたいです。
-      </p>
     </div>
   );
 };
