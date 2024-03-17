@@ -10,25 +10,33 @@ export const services: IServes[] = [
     Icon: RiComputerLine,
     title: "フロントエンド",
     about:
-      "<b>React, Vue.js</b>などのSPAでの開発が得意。<br/>Reduxなどの状態管理を用いた中規模~大規模の開発経験もあります。<br/>iOSの開発でSwiftを触る機会もありました。",
+      "<b>React, Vue.js</b>などのSPAでの開発が得意。<br/>Reduxなどの状態管理を用いた中規模~大規模の開発経験もあります。<br/>\
+      iOSの開発でSwift StoryBoardでの開発の経験もあり、<br />\
+      なんやかんやで１年ほど経験があります。",
   },
   {
     Icon: FaServer,
     title: "バックエンド",
     about:
-      "<b>PHP, Java, Python</b>が得意。特にLaravelのフレームワークを用いた開発が得意である。<br/>Go, Rustの調査を考えています。",
+      "<b>PHP, Java, Python</b>が得意です。<br />\
+      特にLaravelが得意で、API開発からバッチとキューの連携など様々な経験を積んできました！<br />\
+      今後は、アーキテクチャや設計原則などを取り入れられるようにしていきたい。",
   },
   {
     Icon: MdDeveloperMode,
     title: "インフラストラクチャ",
     about:
-      "実務でAWS CLIを使って環境構築をしました。EC2, RDS, CloudFrontなど様々なサービスについて知ることができました。",
+      "サービスひとつのインフラ環境の構築をしたことがあります。<br />\
+      EC2, RDS, CloudFront, SQS, Lambdaなどほとんどのサービスは扱えます！<br />\
+      また、AWSのDVAの資格の取得経験あり。",
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "設計",
+    title: "リーダースキル",
     about:
-      "現在学習中です。アーキテクチャやTDD, DDDなど設計に関しても興味があります。",
+      "エンジニア歴4年目となり、リーダーになるためのスキルを磨いています！<br />\
+      コードレビューやチーム開発における心理的安全性の部分について学習を行なっています。<br />\
+      スクラム開発にもまだまだ慣れていないため本を読んだり、積極的にスクラムイベントのファシリテータを行なったりしています！",
   },
 ];
 
