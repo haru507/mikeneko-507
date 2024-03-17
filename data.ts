@@ -1,6 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { AiOutlineAntDesign } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
 import { IProject, IServes, ISkill } from "./type";
@@ -10,77 +10,70 @@ export const services: IServes[] = [
     Icon: RiComputerLine,
     title: "フロントエンド",
     about:
-      "<b>React, Vue.js</b>などのSPAでの開発が得意。<br/>Reduxなどの状態管理を用いた中規模~大規模の開発経験もあります。<br/>iOSの開発でSwiftを触る機会もありました。",
+      "<b>React, Vue.js</b>などのSPAでの開発が得意。<br/>Reduxなどの状態管理を用いた中規模~大規模の開発経験もあります。<br/>\
+      iOSの開発でSwift StoryBoardでの開発の経験もあり、<br />\
+      なんやかんやで１年ほど経験があります。",
   },
   {
     Icon: FaServer,
     title: "バックエンド",
     about:
-      "<b>PHP, Java, Python</b>が得意。特にLaravelのフレームワークを用いた開発が得意である。<br/>Go, Rustの調査を考えています。",
+      "<b>PHP, Java, Python</b>が得意です。<br />\
+      特にLaravelが得意で、API開発からバッチとキューの連携など様々な経験を積んできました！<br />\
+      今後は、アーキテクチャや設計原則などを取り入れられるようにしていきたい。",
   },
   {
     Icon: MdDeveloperMode,
     title: "インフラストラクチャ",
     about:
-      "実務でAWS CLIを使って環境構築をしました。EC2, RDS, CloudFrontなど様々なサービスについて知ることができました。",
+      "サービスひとつのインフラ環境の構築をしたことがあります。<br />\
+      EC2, RDS, CloudFront, SQS, Lambdaなどほとんどのサービスは扱えます！<br />\
+      また、AWSのDVAの資格の取得経験あり。",
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "設計",
+    title: "リーダースキル",
     about:
-      "現在学習中です。アーキテクチャやTDD, DDDなど設計に関しても興味があります。",
+      "エンジニア歴4年目となり、リーダーになるためのスキルを磨いています！<br />\
+      コードレビューやチーム開発における心理的安全性の部分について学習を行なっています。<br />\
+      スクラム開発にもまだまだ慣れていないため本を読んだり、積極的にスクラムイベントのファシリテータを行なったりしています！",
   },
 ];
 
 export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "Java",
-    level: "70%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "PHP",
+    name: "PHP(3年)",
     level: "80%",
   },
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Javascript",
+    name: "Javascript(3年)",
     level: "75%",
   },
   {
     Icon: BsCircleFill,
-    name: "Flutter",
+    name: "Python(1年ほど)",
+    level: "45%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Swift(1年ほど)",
+    level: "45%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Java",
     level: "40%",
   },
   {
     Icon: BsCircleFill,
-    name: "Swift",
-    level: "50%",
-  },
-  {
-    Icon: BsCircleFill,
     name: "Kotlin",
-    level: "50%",
+    level: "40%",
   }
 ];
 
 export const tools: ISkill[] = [
-  {
-    Icon: BsCircleFill,
-    name: "React",
-    level: "80%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Spring Boot",
-    level: "60%",
-  },
   {
     Icon: BsCircleFill,
     name: "Laravel",
@@ -88,18 +81,23 @@ export const tools: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Vue.js",
-    level: "60%",
+    name: "React",
+    level: "75%",
   },
   {
     Icon: BsCircleFill,
-    name: "UML",
-    level: "45%",
+    name: "Vue.js",
+    level: "55%",
   },
   {
     Icon: BsCircleFill,
     name: "AWS",
-    level: "30%",
+    level: "50%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Spring Boot",
+    level: "40%",
   },
   {
     Icon: BsCircleFill,
@@ -233,5 +231,17 @@ export const projects: IProject[] = [
     description:
       "React, GoとWebSocketを使って ito のゲームを作りました。",
       key_techs: ["react", "go", "websocket"]
+  },
+  {
+    id: 12,
+    name: "Laravel, AWS, 画像認識エンジンの連携における設計",
+    image_path: "/images/new_service.png",
+    deployed_url: "",
+    github_url: "",
+    category: ["laravel"],
+    description:
+      "既存システムのAWS, Laravel環境に画像認識エンジンを搭載したときの簡易設計図です。\n\
+      （踏み込んだことは書けませんが精一杯のわかりやすい図を書きました。）",
+      key_techs: ["AWS", "Laravel", "supervisors"]
   }
 ];

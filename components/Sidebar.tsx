@@ -40,7 +40,7 @@ function Sidebar() {
 
       {/* Social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="https://twitter.com/i_haru57">
+        <a href="https://twitter.com/mikeneko_nyaan2">
           <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/haru507">
@@ -59,13 +59,13 @@ function Sidebar() {
           <GoLocation />
           <span>Tokyo, Japan</span>
         </div>
-        <p className="my-2">i.haru507@gmail.com</p>
+        <p className="my-2">i.haruki507@gmail.com</p>
       </div>
 
       {/* Email Button */}
       <button
         className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none"
-        onClick={() => window.open("mailto:i.haru507@gmail.com")}
+        onClick={() => window.open("mailto:i.haruki507@gmail.com")}
       >
         Eメールを送る
       </button>
