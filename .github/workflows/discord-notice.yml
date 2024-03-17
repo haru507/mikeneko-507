@@ -1,0 +1,22 @@
+name: Notify Discord Vercel
+
+on:
+  push:
+    branches:
+      - '**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify Discord Vercel
+        if: always()
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d '{
+            "content": "デプロイが完了しました!! \nhttps://mike-neko-507.vercel.app/"
+          }' \
+          ${{ secrets.DISCORD_WEBHOOK_URL_HARUKI_PROJECTS_NOTIFICATION }}
+
