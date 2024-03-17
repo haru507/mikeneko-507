@@ -4,14 +4,14 @@ import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
 
 const index = ({endpoint}) => {
-
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        私は、ITの専門学校に２年間通ってITに関する知識を養いました。<br />
-        卒業研究では、校内システム「グループウェア」を作り優秀賞をいただきました。<br />
-        現在、受託開発系のベンチャー企業に勤めながら副業も行っております。<br />
-        お仕事なども募集しておりますのでEmailやTwitterなどからメッセージをいただければ幸いです。
+        2年間のIT専門学校では、卒業研究で校内用の<b>グループウェアシステム</b>を作り優秀賞をもらう<br />
+        1社目では受託開発系のベンチャー企業に勤めながら副業も行っていた<br />
+        Laravel、Swift、Reactでの開発からAWSでのインフラ環境の構築までできる<br />
+        2023年の夏頃に転職活動を開始して2024年の2月に事業系の自社サービスの会社に転職<br />
+        PHP, Laravelを用いた開発・保守を行なっている
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
