@@ -40,7 +40,7 @@ function Sidebar() {
 
       {/* Social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href="https://twitter.com/i_haru57">
+        <a href="https://twitter.com/mikeneko_nyaan2">
           <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="https://github.com/haru507">
