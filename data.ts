@@ -43,52 +43,37 @@ export const services: IServes[] = [
 export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "Java",
-    level: "70%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "PHP",
+    name: "PHP(3年)",
     level: "80%",
   },
   {
     Icon: BsCircleFill,
-    name: "Python",
-    level: "45%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Javascript",
+    name: "Javascript(3年)",
     level: "75%",
   },
   {
     Icon: BsCircleFill,
-    name: "Flutter",
+    name: "Python(1年ほど)",
+    level: "45%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Swift(1年ほど)",
+    level: "45%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Java",
     level: "40%",
   },
   {
     Icon: BsCircleFill,
-    name: "Swift",
-    level: "50%",
-  },
-  {
-    Icon: BsCircleFill,
     name: "Kotlin",
-    level: "50%",
+    level: "40%",
   }
 ];
 
 export const tools: ISkill[] = [
-  {
-    Icon: BsCircleFill,
-    name: "React",
-    level: "80%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Spring Boot",
-    level: "60%",
-  },
   {
     Icon: BsCircleFill,
     name: "Laravel",
@@ -96,18 +81,23 @@ export const tools: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Vue.js",
-    level: "60%",
+    name: "React",
+    level: "75%",
   },
   {
     Icon: BsCircleFill,
-    name: "UML",
-    level: "45%",
+    name: "Vue.js",
+    level: "55%",
   },
   {
     Icon: BsCircleFill,
     name: "AWS",
-    level: "30%",
+    level: "50%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Spring Boot",
+    level: "40%",
   },
   {
     Icon: BsCircleFill,
@@ -241,5 +231,17 @@ export const projects: IProject[] = [
     description:
       "React, GoとWebSocketを使って ito のゲームを作りました。",
       key_techs: ["react", "go", "websocket"]
+  },
+  {
+    id: 12,
+    name: "Laravel, AWS, 画像認識エンジンの連携における設計",
+    image_path: "/images/new_service.png",
+    deployed_url: "",
+    github_url: "",
+    category: ["laravel"],
+    description:
+      "既存システムのAWS, Laravel環境に画像認識エンジンを搭載したときの簡易設計図です。\n\
+      （踏み込んだことは書けませんが精一杯のわかりやすい図を書きました。）",
+      key_techs: ["AWS", "Laravel", "supervisors"]
   }
 ];
