@@ -34,17 +34,10 @@ const ProjectCard: FunctionComponent<{
         height="150"
         layout="responsive"
       />
-      {/* <img
-        src={image_path}
-        alt={name}
-        className="cursor-pointer"
-        onClick={() => setShowDetail(true)}
-      /> */}
       <p className="my-2 text-center">{name}</p>
       {showDetail === id && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+        <div className="absolute left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg top-40 md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
           <div>
-            {/* <img src={image_path} alt={name} /> */}
             <div className="border-4 border-gray-100">
               <Image
                 src={image_path}
