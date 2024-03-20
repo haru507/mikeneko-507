@@ -2,8 +2,8 @@
 import React from "react";
 import { AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { FaStickyNote } from "react-icons/fa";
+import { GiFireworkRocket } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
-import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
 import Image from "next/image";
 
@@ -33,9 +33,10 @@ function Sidebar() {
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500"
-        href="https://wear.jp/haruki0507dhura/"
+        href="https://www.wantedly.com/id/haruki_ishii_mike"
       >
-        <GiTie className="w-6 h-6" /> WEAR
+        <GiFireworkRocket className="w-6 h-6" />
+        <p style={{ marginLeft: "5px" }}>Wantedly</p>
       </a>
 
       {/* Social icon */}
