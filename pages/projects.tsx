@@ -1,17 +1,26 @@
-import React, { useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 import ProjectsNavbar from "../components/ProjectsNavbar";
 import { projects as projectsData } from "../data";
-import { Category } from "../type";
+import { Category, IProject } from "../type";
 
 const Projects = () => {
-  const [projects, setProjects] = useState(projectsData);
+  const [projects, setProjects] = useState<IProject[]>([]);
   const [active, setActive] = useState("all");
   const [showDetail, setShowDetail] = useState<number | null>(null);
 
+  useEffect(() => {
+    getReversedProjectsSlice();
+  }, []);
+
+  const getReversedProjectsSlice = useCallback(() => {
+    const newProjectsArray = [...projectsData].reverse().slice(0,6);
+    setProjects(newProjectsArray);
+  }, []);
+
   const handleFilterCategory = (category: Category | "all") => {
     if (category === "all") {
-      setProjects(projectsData);
+      getReversedProjectsSlice();
       setActive(category);
       return;
     }
@@ -34,6 +43,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      { active === 'all' ? <span className="text-gray-400">※最新の6件のみを表示しています。</span> : <></>}
     </div>
   );
 };
