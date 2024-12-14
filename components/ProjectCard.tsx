@@ -2,7 +2,7 @@
 import React, { FunctionComponent, useState } from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import { IProject } from "../type";
+import { IProject } from "@/utils/type";
 import Image from "next/image";
 
 const ProjectCard: FunctionComponent<{
