@@ -6,14 +6,16 @@ import React from "react";
 const index = ({endpoint}) => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
-      <h5 className="my-3 font-medium leading-normal">
-        2年間のIT専門学校では、卒業研究で校内用の<b>グループウェアシステム</b>を作り優秀賞をもらう<br />
-        1社目では受託開発系のベンチャー企業に勤めながら副業も行っていた<br />
-        <b>Laravel</b>、<b>Swift</b>、<b>React</b>での開発からAWSでのインフラ環境の構築までできる<br />
-        特に既存のLaravelサービスの裏側に画像認識サーバーとの連携システムの構築を行い、<br />
-        Laravelのバッチだけでなく、「SupervisorやSQSなどのキュー」に関する知識と経験ができました！<br />
-        2023年の夏頃に転職活動を開始して2024年の2月に事業系の自社サービスの会社に転職<br />
-        PHP, Laravelを用いた開発・保守を行なっている
+       <h5 className="my-3 font-medium leading-normal">
+        2年間のIT専門学校で卒業研究として<b>グループウェアシステム</b>を作成し、優秀賞を受賞しました。<br />
+        1社目では受託開発系のベンチャー企業に勤め、副業も行っていました。<br />
+        <b>Laravel</b>、<b>Swift</b>、<b>React</b>を用いた開発から、AWSでのインフラ環境の構築まで幅広く対応可能です。<br />
+        特に、既存のLaravelサービスに画像認識サーバーとの連携システムを構築し、<br />
+        Laravelのバッチ処理に加え、「SupervisorやSQSなどのキュー」に関する知識と経験を得ました。<br />
+        2023年の夏頃に転職活動を開始し、2024年の2月に事業系の自社サービスを提供する会社に転職しました。<br />
+        現在は、スクラム開発において求人サイトの新規機能開発・改修を主に担当しています。<br />
+        新規機能開発では、Lambda、Node.js、Typescriptを用いて他の求人システムとの連携システムを構築しています。<br />
+        また、Terraformを使用してAWSサービスの構築も行っています。
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
