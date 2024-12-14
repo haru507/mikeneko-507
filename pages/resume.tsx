@@ -1,6 +1,6 @@
 import React from "react";
-import Bar from "../components/Bar";
-import { languages, tools } from "../data";
+import Bar from "@/components/Bar";
+import { languages, tools } from "@/utils/data";
 
 /* eslint-disable react/no-unescaped-entities */
 function resume() {

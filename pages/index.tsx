@@ -1,7 +1,7 @@
+import ServiceCard from "@/components/ServiceCard";
+import { services } from "@/utils/data";
 import { GetServerSidePropsContext } from "next";
 import React from "react";
-import ServiceCard from "../components/ServiceCard";
-import { services } from "../data";
 
 const index = ({endpoint}) => {
   return (

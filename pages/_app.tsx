@@ -1,6 +1,6 @@
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
-import "../styles/globals.css";
+import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
+import "@/styles/globals.css";
 import { ThemeProvider } from "next-themes";
 import Head from "next/head";
 
