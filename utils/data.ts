@@ -48,7 +48,7 @@ export const languages: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Javascript(3年)",
+    name: "Javascript/Typescript(3年)",
     level: "75%",
   },
   {
@@ -86,6 +86,11 @@ export const tools: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "Node.js",
+    level: "70%",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Vue.js",
     level: "55%",
   },
@@ -98,11 +103,6 @@ export const tools: ISkill[] = [
     Icon: BsCircleFill,
     name: "Spring Boot",
     level: "40%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "GCP",
-    level: "25%",
   },
 ];
 
