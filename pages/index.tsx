@@ -1,12 +1,12 @@
 import ServiceCard from "@/components/ServiceCard";
 import { services } from "@/utils/data";
-import { GetServerSidePropsContext } from "next";
+import type { GetServerSidePropsContext } from "next";
 import React from "react";
 
 const index = ({endpoint}) => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
-       <h5 className="my-3 font-medium leading-normal">
+      <h5 className="my-3 font-medium leading-normal">
         2年間のIT専門学校で卒業研究として<b>グループウェアシステム</b>を作成し、優秀賞を受賞しました。<br />
         1社目では受託開発系のベンチャー企業に勤め、副業も行っていました。<br />
         <b>Laravel</b>、<b>Swift</b>、<b>React</b>を用いた開発から、AWSでのインフラ環境の構築まで幅広く対応可能です。<br />
@@ -42,27 +42,9 @@ export default index;
 export const getServerSideProps = async (
   context: GetServerSidePropsContext
 ) => {
-  // console.log(process.env.VERCEL_URL);
-
-  // const res = await fetch(`${process.env.VERCEL_URL}/api/services`);
-  // const data = await res.json();
-
   return {
     props: {
       endpoint: process.env.VERCEL_URL,
     },
   };
 };
-
-// export const getStaticProps = async (context: GetServerSidePropsContext) => {
-//   const res = await fetch("http://localhost:3000/api/services");
-//   const data = await res.json();
-
-//   console.log("SERVER", services);
-
-//   return {
-//     props: {
-//       services: data.services,
-//     },
-//   };
-// };

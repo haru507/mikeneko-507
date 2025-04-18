@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { FunctionComponent, useState } from "react";
+import React, { type FunctionComponent } from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import { IProject } from "@/utils/type";
+import type { IProject } from "@/utils/type";
 import Image from "next/image";
 
 const ProjectCard: FunctionComponent<{
@@ -79,6 +79,7 @@ const ProjectCard: FunctionComponent<{
             </div>
           </div>
           <button
+            type="button"
             onClick={() => setShowDetail(null)}
             className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
           >

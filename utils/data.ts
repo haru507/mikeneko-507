@@ -3,7 +3,7 @@ import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { BsCircleFill } from "react-icons/bs";
-import { IProject, IServes, ISkill } from "@/utils/type";
+import type { IProject, IServes, ISkill } from "@/utils/type";
 
 export const services: IServes[] = [
   {

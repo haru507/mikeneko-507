@@ -10,7 +10,6 @@ function resume() {
         <div>
           <h5 className="my-2 text-2xl font-bold">Like and Strengths</h5>
           <div>
-            <h5 className="my-2 text-xl font-bold"></h5>
             <p className="font-semibold">Frontend & ServerSide</p>
             <p className="my-3">
               PHPとJSの経験が多く、自分自身も自信を持って設計と実装ができます！<br />
@@ -21,7 +20,6 @@ function resume() {
         <div>
           <h5 className="my-2 text-2xl font-bold">Future challenges</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold"></h5>
             <p className="font-semibold">Architecture & Leader's skill</p>
             <p className="my-3">
               今後の課題としてはアーキテクチャに関する知識を養い、保守性や拡張性といったところも考慮できるようにしたい。

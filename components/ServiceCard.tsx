@@ -1,5 +1,5 @@
-import { FunctionComponent } from "react";
-import { IServes } from "@/utils/type";
+import type { FunctionComponent } from "react";
+import type { IServes } from "@/utils/type";
 
 const ServiceCard: FunctionComponent<{ service: IServes }> = ({
   service: { Icon, about, title },
