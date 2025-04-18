@@ -8,35 +8,27 @@ import type { IProject, IServes, ISkill } from "@/utils/type";
 export const services: IServes[] = [
   {
     Icon: RiComputerLine,
-    title: "フロントエンド",
+    title: "frontend",
     about:
-      "<b>React, Vue.js</b>などのSPAでの開発が得意。<br/>Reduxなどの状態管理を用いた中規模~大規模の開発経験もあります。<br/>\
-      iOSの開発でSwift StoryBoardでの開発の経験もあり、<br />\
-      なんやかんやで１年ほど経験があります。",
+      "<b>React, Vue.js</b>を用いたSPA開発が得意で、<b>状態管理（Redux, Vuex）</b>や、<b>コンポーネント駆動開発</b>に精通しています。中〜大規模アプリケーションの設計から実装、パフォーマンス最適化まで幅広い経験があります。<br/>Swift（Storyboard）でのiOS開発も経験があり、モバイルアプリ開発にも携わっています。",
   },
   {
     Icon: FaServer,
-    title: "バックエンド",
+    title: "backend",
     about:
-      "<b>PHP, Java, Python</b>が得意です。<br />\
-      特にLaravelが得意で、API開発からバッチとキューの連携など様々な経験を積んできました！<br />\
-      今後は、アーキテクチャや設計原則などを取り入れられるようにしていきたい。",
+      "<b>PHP（Laravel）</b>を中心に、<b>Java, Python</b>でも開発経験があります。<br/>RESTful APIやバッチ・キュー連携などのサーバーサイド開発を得意としています。<br/>設計原則やアーキテクチャにも関心があり、より良い構成を目指しています。",
   },
   {
     Icon: MdDeveloperMode,
-    title: "インフラストラクチャ",
+    title: "infrastructure",
     about:
-      "サービスひとつのインフラ環境の構築をしたことがあります。<br />\
-      EC2, RDS, CloudFront, SQS, Lambdaなどほとんどのサービスは扱えます！<br />\
-      また、AWSのDVAの資格の取得経験あり。",
+      "<b>AWS</b>を中心に、<b>EC2, RDS, CloudFront, SQS, Lambda</b>などを用いたサービスのインフラ構築・運用経験があります。<br/><b>CI/CD環境の構築</b>により、デプロイ作業の自動化とリリースの品質向上をさせました！<br/>DVA（AWS認定資格）も取得済みです.",
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "リーダースキル",
+    title: "leadership-skill",
     about:
-      "エンジニア歴4年目となり、リーダーになるためのスキルを磨いています！<br />\
-      コードレビューやチーム開発における心理的安全性の部分について学習を行なっています。<br />\
-      スクラム開発にもまだまだ慣れていないため本を読んだり、積極的にスクラムイベントのファシリテータを行なったりしています！",
+      "エンジニア歴5年目を迎え、リーダーシップを発揮するためのスキルを磨いています。<br/>コードレビューを通じたフィードバックや、チーム内での心理的安全性の構築に力を入れています。また、スクラム開発の理解を深めるため、積極的にファシリテータとして参加し、チームの成長をサポートしています。",
   },
 ];
 
