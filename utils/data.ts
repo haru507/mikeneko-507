@@ -43,22 +43,22 @@ export const services: IServes[] = [
 export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "PHP(3年)",
+    name: "PHP",
     level: "80%",
   },
   {
     Icon: BsCircleFill,
-    name: "Javascript/Typescript(3年)",
-    level: "75%",
+    name: "Javascript/Typescript",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
-    name: "Python(1年ほど)",
-    level: "45%",
+    name: "Python",
+    level: "50%",
   },
   {
     Icon: BsCircleFill,
-    name: "Swift(1年ほど)",
+    name: "Swift",
     level: "45%",
   },
   {
@@ -81,7 +81,7 @@ export const tools: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "React",
+    name: "React/Next.js",
     level: "75%",
   },
   {
