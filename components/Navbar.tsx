@@ -1,10 +1,10 @@
-import { FunctionComponent, useEffect, useState } from "react";
+import { type FunctionComponent, useEffect, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/dist/client/router";
 
 const NavItem: FunctionComponent<{
   activeItem: string;
-  setActiveItem: Function;
+  setActiveItem: (name: string) => void;
   name: string;
   route: string;
 }> = ({ activeItem, name, route, setActiveItem }) => {

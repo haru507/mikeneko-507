@@ -1,9 +1,9 @@
-import { FunctionComponent } from "react";
-import { Category } from "@/utils/type";
+import type { FunctionComponent } from "react";
+import type { Category } from "@/utils/type";
 
 export const NavItem: FunctionComponent<{
   value: Category | "all";
-  handleFilterCategory: Function;
+  handleFilterCategory: (category: Category | "all") => void;
   active: string;
 }> = ({ value, handleFilterCategory, active }) => {
   let className = "capitalize cursor-pointer hover:text-green";
@@ -16,7 +16,7 @@ export const NavItem: FunctionComponent<{
 };
 
 const ProjectsNavbar: FunctionComponent<{
-  handleFilterCategory: Function;
+  handleFilterCategory: (category: Category | "all") => void;
   active: string;
 }> = (props) => {
   return (

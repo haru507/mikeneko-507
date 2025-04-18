@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import ProjectCard from "@/components/ProjectCard";
 import ProjectsNavbar from "@/components/ProjectsNavbar";
 import { projects as projectsData } from "@/utils/data";
-import { Category, IProject } from "@/utils/type";
+import type { Category, IProject } from "@/utils/type";
 
 const Projects = () => {
   const [projects, setProjects] = useState<IProject[]>([]);
